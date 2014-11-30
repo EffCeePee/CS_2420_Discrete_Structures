@@ -1,0 +1,23 @@
+Paradigm: a way of thinking about a certain topic
+is everything in CS the same paradigm?  
+New Paradigm = Divide and Conquere
+
+Merge Sort
+
+int data [20];   this is a constant int pointer
+int * p1;  this is a pointer
+
+if we have two arrays that are both sorted, 
+
+how do we make them one big array?
+
+do a loop to compare the arrays and insert the smaller of the numbers and increase the pointer of the inserted array
+
+Page 650.  13.3 merge two sorted arrays'
+
+Page 646   13.2 
+
+Quick Sort
+
+
+

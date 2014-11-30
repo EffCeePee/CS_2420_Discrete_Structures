@@ -1,0 +1,14 @@
+﻿  table.cpp
+c:\users\f\desktop\school\cs 2420\hash\hash\element.h(9): error C2146: syntax error : missing ';' before identifier 'key'
+c:\users\f\desktop\school\cs 2420\hash\hash\element.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\f\desktop\school\cs 2420\hash\hash\element.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\f\desktop\school\cs 2420\hash\hash\table.h(83): error C2061: syntax error : identifier 'string'
+c:\users\f\desktop\school\cs 2420\hash\hash\table.h(90): fatal error C1083: Cannot open include file: 'table1.template': No such file or directory
+  element.cpp
+c:\users\f\desktop\school\cs 2420\hash\hash\element.h(9): error C2146: syntax error : missing ';' before identifier 'key'
+c:\users\f\desktop\school\cs 2420\hash\hash\element.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\f\desktop\school\cs 2420\hash\hash\element.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\f\desktop\school\cs 2420\hash\hash\element.cpp(7): error C2065: 'key' : undeclared identifier
+  driver.cpp
+c:\users\f\desktop\school\cs 2420\hash\hash\driver.cpp(2): fatal error C1083: Cannot open include file: '': No such file or directory
+  Generating Code...

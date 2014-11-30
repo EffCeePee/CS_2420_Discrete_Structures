@@ -1,0 +1,47 @@
+/* in a data structur heap, (not the same as a memory heap)
+
+we don't use a Node structure we use an array although we think of them like tree's
+
+in a heap property 
+1. children are greater than the parent
+2. and you fill in from left to right
+
+find parent:
+
+is child divided by 2 with integer division
+
+find left child:
+is * 2
+
+find right child is 
+(*2) + 1
+
+when we add / insert a number
+1. we put it at the end of the array,
+2. then we bubble up
+	a.  if new data is larger than parent, then swap
+	b.  else stop
+
+remove / delete
+1. swap first position and last position
+2. save last
+3. delete last
+4. bubble down
+   a. if parent is larger then child swap
+   b. then return queued
+
+
+usefull for a priority queue 
+and for a heap sort
+ what that means is you pop them into a heap adn then pop them all off and they are in order
+
+when speaking of speed
+the insert part is n lg n
+pop them off is n lg n
+
+so the speed is n lg n
+
+but quick sort is better because it is in place meaning that you don't have to allocate new space/ memory
+
+
+*/

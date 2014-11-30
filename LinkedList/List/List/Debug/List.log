@@ -1,0 +1,31 @@
+﻿Build started 9/10/2013 3:02:57 PM.
+     1>Project "C:\Users\Colton\Desktop\CS 2420\LinkedList\List\List\List.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\List.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Driver.cpp list.cpp
+         Driver.cpp
+     1>c:\users\colton\desktop\cs 2420\linkedlist\list\list\driver.cpp(17): error C2248: 'list_1::list::head' : cannot access private member declared in class 'list_1::list'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(33) : see declaration of 'list_1::list::head'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(9) : see declaration of 'list_1::list'
+     1>c:\users\colton\desktop\cs 2420\linkedlist\list\list\driver.cpp(18): error C2248: 'list_1::list::head' : cannot access private member declared in class 'list_1::list'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(33) : see declaration of 'list_1::list::head'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(9) : see declaration of 'list_1::list'
+     1>c:\users\colton\desktop\cs 2420\linkedlist\list\list\driver.cpp(19): error C2248: 'list_1::list::head' : cannot access private member declared in class 'list_1::list'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(33) : see declaration of 'list_1::list::head'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(9) : see declaration of 'list_1::list'
+     1>c:\users\colton\desktop\cs 2420\linkedlist\list\list\driver.cpp(23): error C2248: 'list_1::list::head' : cannot access private member declared in class 'list_1::list'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(33) : see declaration of 'list_1::list::head'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(9) : see declaration of 'list_1::list'
+     1>c:\users\colton\desktop\cs 2420\linkedlist\list\list\driver.cpp(24): error C2248: 'list_1::list::head' : cannot access private member declared in class 'list_1::list'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(33) : see declaration of 'list_1::list::head'
+                 c:\users\colton\desktop\cs 2420\linkedlist\list\list\list.h(9) : see declaration of 'list_1::list'
+         Generating Code...
+         Compiling...
+         list.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Colton\Desktop\CS 2420\LinkedList\List\List\List.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.29
